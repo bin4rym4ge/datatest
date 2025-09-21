@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <fstream>
 #include <regex>
 
@@ -37,7 +36,6 @@ int main(int argc, char* argv[]){
     do{
 
 	regex_search(in, sm, r);
-
 
 	if( (sm[2] != "") || (sm[2] != "\0") ){
 	    cout << sm[1] << ", ";
