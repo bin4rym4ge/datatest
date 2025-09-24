@@ -58,7 +58,7 @@ int main(int argc, char* argv[]){
 		// submatches to std::smatch sm
 		regex_search(in, sm, r);
 
-		// revise later so sudo global not required
+		// revise later so pseudo global not required
 		if( (sm[2] != "") || (sm[2] != "\0") ){
 			cout << sm[1] << ", ";
 		} else {
