@@ -8,7 +8,7 @@ void helpscrn();
 
 int main(int argc, char* argv[]){
 
-	// display help screen in first arg is -h or --help
+	// display help screen if first arg is -h or --help
 	if( ((string)argv[1] == "-h") || ((string)argv[1] == "--help") ){
 
 		// display help screen
